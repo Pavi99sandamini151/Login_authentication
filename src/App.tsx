@@ -6,6 +6,8 @@ import Login from './components/login';
 import Home from './components/home';
 import Signup from "./components/signup";
 import Firstpage from "./components/first_page";
+import Order from "./components/order";
+import Menu from "./components/menu";
 
 const App = () => {
     const [user,setLoginUser] = useState({});
@@ -22,6 +24,8 @@ const App = () => {
                 </Route>
                 <Route  path='/login'><Login setLoginUser={setLoginUser}/></Route>
                 <Route  path='/signup'><Signup/></Route>
+                <Route  path='/order'><Order/></Route>
+                <Route  path='/menu'><Menu/></Route>
             </Switch>
         </BrowserRouter>
   );
