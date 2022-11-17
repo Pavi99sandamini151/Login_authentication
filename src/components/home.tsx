@@ -3,6 +3,7 @@ import {Col, Container, Image, Row} from "react-bootstrap";
 import photo from "../assets/home.png";
 import Sidenav from "./common/sidenav";
 import Header from "./common/header";
+import Footer from "./common/footer";
 
 const Home = () => {
     return(
@@ -18,6 +19,9 @@ const Home = () => {
                     <h1>Home page</h1>
                     <Image src={photo} width='100%' fluid/>
                 </Col>
+            </Row>
+            <Row>
+                <Footer/>
             </Row>
         </Container>
     );

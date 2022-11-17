@@ -1,6 +1,7 @@
 import React from "react";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
 import coffee from '../assets/coffee.png';
+import Footer from "./common/footer";
 
 const Firstpage = () => {
 
@@ -19,7 +20,9 @@ const Firstpage = () => {
                     <h1>Initial page</h1>
                 </Col>
             </Row>
-
+            <Row>
+                <Footer/>
+            </Row>
         </Container>
     );
 

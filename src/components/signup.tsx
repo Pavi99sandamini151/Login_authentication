@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import photo from "../assets/signup.png";
 import axios from "axios";
+import Footer from "./common/footer";
 
 const Signup = () => {
     const [user,setUser] = useState({
@@ -88,6 +89,9 @@ const Signup = () => {
                         </Row>
                     </Container>
                 </Col>
+            </Row>
+            <Row>
+                <Footer/>
             </Row>
         </Container>
     );

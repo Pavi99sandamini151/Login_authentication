@@ -3,6 +3,7 @@ import {Col, Container, Image, Row} from "react-bootstrap";
 import Sidenav from "./common/sidenav";
 import Header from "./common/header";
 import photo from "../assets/home.png";
+import Footer from "./common/footer";
 
 const Payment = () => {
     return(
@@ -18,6 +19,9 @@ const Payment = () => {
                     <h1>Payment page</h1>
                     <Image src={photo} width='100%' fluid/>
                 </Col>
+            </Row>
+            <Row>
+                <Footer/>
             </Row>
         </Container>
     );

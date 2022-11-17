@@ -4,6 +4,7 @@ import photo from '../assets/login.png';
 import axios from 'axios';
 // @ts-ignore
 import {  useHistory } from "react-router-dom";
+import Footer from "./common/footer";
 
 // @ts-ignore
 const Login = ({setLoginUser}) => {
@@ -85,6 +86,9 @@ const Login = ({setLoginUser}) => {
                         </Row>
                     </Container>
                 </Col>
+            </Row>
+            <Row>
+                <Footer/>
             </Row>
         </Container>
     );

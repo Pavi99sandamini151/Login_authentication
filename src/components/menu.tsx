@@ -5,6 +5,7 @@ import {Link, useLocation } from "react-router-dom";
 import Sidenav from "./common/sidenav";
 import Header from "./common/header";
 import photo from "../assets/home.png";
+import Footer from "./common/footer";
 
 const Menu = () => {
     return(
@@ -20,6 +21,9 @@ const Menu = () => {
                     <h1>menu page</h1>
                     <Image src={photo} width='100%' fluid/>
                 </Col>
+            </Row>
+            <Row>
+                <Footer/>
             </Row>
         </Container>
     );
