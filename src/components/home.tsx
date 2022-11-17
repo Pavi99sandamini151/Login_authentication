@@ -1,6 +1,7 @@
 import React from "react";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import photo from "../assets/home.png";
+import Sidenav from "./common/sidenav";
 
 const Home = () => {
     return(
@@ -12,10 +13,11 @@ const Home = () => {
             </Row>
             <Row className='m-0'>
                 <Col className='p-0'>
-                    <Image src={photo} width='100%' fluid/>
+                    <Sidenav/>
                 </Col>
                 <Col className='p-0 mt-4'>
                     <h1>Home page</h1>
+                    <Image src={photo} width='100%' fluid/>
                 </Col>
             </Row>
         </Container>
