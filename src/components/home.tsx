@@ -2,14 +2,13 @@ import React from "react";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import photo from "../assets/home.png";
 import Sidenav from "./common/sidenav";
+import Header from "./common/header";
 
 const Home = () => {
     return(
         <Container>
             <Row className='m-0 justify-content-end'>
-                <Col className='p-0 float-end' xs={2}>
-                    <a href={'/login'} style={{textDecoration:'none', color:'black'}}>log out</a>
-                </Col>
+                <Header/>
             </Row>
             <Row className='m-0'>
                 <Col className='p-0'>

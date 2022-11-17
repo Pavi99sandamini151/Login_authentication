@@ -8,6 +8,7 @@ import Signup from "./components/signup";
 import Firstpage from "./components/first_page";
 import Order from "./components/order";
 import Menu from "./components/menu";
+import Payment from "./components/payments";
 
 const App = () => {
     const [user,setLoginUser] = useState({});
@@ -26,6 +27,7 @@ const App = () => {
                 <Route  path='/signup'><Signup/></Route>
                 <Route  path='/order'><Order/></Route>
                 <Route  path='/menu'><Menu/></Route>
+                <Route  path='/payment'><Payment/></Route>
             </Switch>
         </BrowserRouter>
   );

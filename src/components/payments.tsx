@@ -1,12 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import {Col, Container, Image, Row} from "react-bootstrap";
-// @ts-ignore
-import {Link, useLocation } from "react-router-dom";
 import Sidenav from "./common/sidenav";
 import Header from "./common/header";
 import photo from "../assets/home.png";
 
-const Menu = () => {
+const Payment = () => {
     return(
         <Container>
             <Row className='m-0 justify-content-end'>
@@ -17,7 +15,7 @@ const Menu = () => {
                     <Sidenav/>
                 </Col>
                 <Col className='p-0 mt-4'>
-                    <h1>menu page</h1>
+                    <h1>Payment page</h1>
                     <Image src={photo} width='100%' fluid/>
                 </Col>
             </Row>
@@ -25,4 +23,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default Payment;

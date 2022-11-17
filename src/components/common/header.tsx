@@ -3,7 +3,9 @@ import {Col, Container} from "react-bootstrap";
 
 const Header = () => {
     return(
-        <Container>header</Container>
+        <Container className='border border-1 border-success'>
+            header
+        </Container>
     );
 };
 
